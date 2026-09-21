@@ -1,0 +1,34 @@
+{
+  "lessonId": "beginner_c_major_01",
+  "lessonName": "C Major Five-Note Exercise",
+  "description": "Play C4, D4, E4, F4, and G4 in order.",
+  "tempo": 60,
+  "difficulty": "Beginner",
+  "targetNotes": [
+    {
+      "midiNoteNumber": 60,
+      "expectedStartTime": 0.0,
+      "expectedDuration": 0.8
+    },
+    {
+      "midiNoteNumber": 62,
+      "expectedStartTime": 1.0,
+      "expectedDuration": 0.8
+    },
+    {
+      "midiNoteNumber": 64,
+      "expectedStartTime": 2.0,
+      "expectedDuration": 0.8
+    },
+    {
+      "midiNoteNumber": 65,
+      "expectedStartTime": 3.0,
+      "expectedDuration": 0.8
+    },
+    {
+      "midiNoteNumber": 67,
+      "expectedStartTime": 4.0,
+      "expectedDuration": 0.8
+    }
+  ]
+}
