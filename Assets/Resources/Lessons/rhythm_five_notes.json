@@ -1,0 +1,15 @@
+{
+  "id": "rhythm_c_major_01",
+  "title": "C Major - Five Quarter Notes",
+  "tempo": 60,
+  "beatsPerBar": 4,
+  "beatUnit": 4,
+  "difficulty": "Beginner",
+  "notes": [
+    { "pitch": 60, "startBeat": 0, "durationBeats": 1, "hand": "right" },
+    { "pitch": 62, "startBeat": 1, "durationBeats": 1, "hand": "right" },
+    { "pitch": 64, "startBeat": 2, "durationBeats": 1, "hand": "right" },
+    { "pitch": 65, "startBeat": 3, "durationBeats": 1, "hand": "right" },
+    { "pitch": 67, "startBeat": 4, "durationBeats": 1, "hand": "right" }
+  ]
+}

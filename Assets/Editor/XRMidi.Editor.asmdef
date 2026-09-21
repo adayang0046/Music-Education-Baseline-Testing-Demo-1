@@ -1,0 +1,5 @@
+{
+  "name": "XRMidi.Editor",
+  "references": ["XRMidi.Runtime", "XRMidi.Core", "Unity.ugui"],
+  "includePlatforms": ["Editor"]
+}

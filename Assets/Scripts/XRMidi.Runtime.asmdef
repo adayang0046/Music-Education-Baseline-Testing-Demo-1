@@ -1,0 +1,5 @@
+{
+  "name": "XRMidi.Runtime",
+  "references": ["Unity.ugui", "XRMidi.Core"],
+  "autoReferenced": true
+}

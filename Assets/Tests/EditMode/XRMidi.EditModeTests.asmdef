@@ -1,0 +1,6 @@
+{
+  "name": "XRMidi.EditModeTests",
+  "references": ["XRMidi.Core", "XRMidi.Runtime", "XRMidi.Editor"],
+  "includePlatforms": ["Editor"],
+  "optionalUnityReferences": ["TestAssemblies"]
+}
