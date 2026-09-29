@@ -1,3 +1,4 @@
+## Details and progress report: https://docs.google.com/presentation/d/17kpbyFzYw_u72JxXlWVYayHAdiE3foY_0Mo14RWfuYk/edit?usp=sharing
 ## 1. Hand tracking and pinch
 
 **APK:** [QuestGestureTest.apk](https://github.com/adayang0046/Music-Education-Baseline-Testing-Demo-1/raw/refs/heads/main/Builds/QuestGestureTest.apk)
