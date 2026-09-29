@@ -24,3 +24,8 @@
 .env
 .env.*
 !.env.example
+
+# Local-only project notes
+/AGENTS.md
+/OUTLINES.md
+/README.md
