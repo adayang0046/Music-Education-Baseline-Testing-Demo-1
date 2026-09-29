@@ -1,4 +1,7 @@
 ## Details and progress report: https://docs.google.com/presentation/d/17kpbyFzYw_u72JxXlWVYayHAdiE3foY_0Mo14RWfuYk/edit?usp=sharing
+
+## How to use: Now the DEMO is seperated in 3 APKs for debugging, please use the following guidence to download and install them on Meta Quest. Note: the 3rd APK requires Unity and project source code. 
+
 ## 1. Hand tracking and pinch
 
 **APK:** [QuestGestureTest.apk](https://github.com/adayang0046/Music-Education-Baseline-Testing-Demo-1/raw/refs/heads/main/Builds/QuestGestureTest.apk)
@@ -7,7 +10,7 @@ Checks whether Quest tracks your hands and detects thumb-to-index pinches.
 
 **How to use:**
 
-- Download the APK above; no Unity project is needed. If GitHub shows a file page, click **Download raw file**.
+- Download the APK above; no Unity project is needed. 
 - Enable Developer Mode on Quest using [Meta’s setup guide](https://developers.meta.com/horizon/documentation/unity/unity-env-device-setup/). Connect Quest to your computer by USB and accept the USB debugging prompt.
 - In **Meta Quest Developer Hub → Device Manager → Apps**, drag in the APK or select **Add Build** to install it ([installation guide](https://developers.meta.com/horizon/documentation/spatial-sdk/ts-mqdh-deploy-build/)). The computer is only needed for installation.
 - In Quest’s **App Library → Unknown Sources**, open **XR MIDI Gesture Test** on Quest with hand tracking enabled.
