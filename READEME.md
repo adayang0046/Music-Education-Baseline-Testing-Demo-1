@@ -1,6 +1,6 @@
 ## Details and progress report: https://docs.google.com/presentation/d/17kpbyFzYw_u72JxXlWVYayHAdiE3foY_0Mo14RWfuYk/edit?usp=sharing
 
-## How to use: Now the DEMO is seperated in 3 APKs for debugging, please use the following guidence to download and install them on Meta Quest. Note: the 3rd APK requires Unity and project source code. 
+## How to use: Now the DEMO is seperated in 3 APKs for debugging, please use the following guidence to download and install them on Meta Quest. Note: the 3rd APK requires Unity and project source code. Thank you for reviewing
 
 ## 1. Hand tracking and pinch
 
