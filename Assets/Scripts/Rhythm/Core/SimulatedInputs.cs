@@ -7,7 +7,8 @@ namespace XRMidi
         private readonly IMusicalClock clock;
         public event Action<NoteEvent> NoteReceived;
         public SimulatedMidiInput(IMusicalClock clock) { this.clock = clock ?? throw new ArgumentNullException(nameof(clock)); }
-        public void Send(int pitch, bool on, int velocity = 100) => NoteReceived?.Invoke(new NoteEvent(pitch, on, velocity, clock.ElapsedSeconds));
+        public void Send(int pitch, bool on, int velocity = 100, int channel = 0) => NoteReceived?.Invoke(new NoteEvent(pitch, on, velocity, clock.ElapsedSeconds, channel));
+        public void SendScheduled(NoteEvent note) => NoteReceived?.Invoke(note);
     }
     // A discrete simulation, not a claim of physical pinch recognition.
     public sealed class SimulatedGestureProvider : IGestureProvider

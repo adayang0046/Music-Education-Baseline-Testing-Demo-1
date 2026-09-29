@@ -1,0 +1,31 @@
+Inspected 2026-09-22
+SHA256: 8e80af4c10c021e398f6cc66aeabb4cf123800933b7d599748a805929bafd36c
+Build log: Build Finished, Result: Success.
+
+package: name='com.xrmidi.gesturetest' versionCode='1' versionName='0.1' platformBuildVersionName='14' platformBuildVersionCode='34' compileSdkVersion='34' compileSdkVersionCodename='14'
+install-location:'preferExternal'
+sdkVersion:'32'
+targetSdkVersion:'34'
+uses-permission: name='android.permission.INTERNET'
+uses-permission: name='com.oculus.permission.HAND_TRACKING'
+uses-permission: name='org.khronos.openxr.permission.OPENXR'
+uses-permission: name='org.khronos.openxr.permission.OPENXR_SYSTEM'
+application-label:'XR MIDI Gesture Test'
+application-icon-160:'res/mipmap-anydpi-v26/app_icon.xml'
+application-icon-65534:'res/mipmap-anydpi-v26/app_icon.xml'
+application: label='XR MIDI Gesture Test' icon='res/mipmap-anydpi-v26/app_icon.xml'
+application-debuggable
+launchable-activity: name='com.unity3d.player.UnityPlayerActivity'  label='' icon=''
+feature-group: label=''
+  uses-feature-not-required: name='android.hardware.touchscreen'
+  uses-feature-not-required: name='android.hardware.touchscreen.multitouch'
+  uses-feature-not-required: name='android.hardware.touchscreen.multitouch.distinct'
+  uses-feature: name='android.hardware.vr.headtracking' version='1'
+  uses-feature: name='android.hardware.vulkan.version'
+  uses-feature-not-required: name='oculus.software.handtracking'
+main
+supports-screens: 'small' 'normal' 'large' 'xlarge'
+supports-any-density: 'true'
+locales: '--_--'
+densities: '160' '65534'
+native-code: 'arm64-v8a'

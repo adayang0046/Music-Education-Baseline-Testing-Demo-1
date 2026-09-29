@@ -17,7 +17,18 @@ public static class Milestone1SceneBuilder
             Debug.Log("Demo scene already exists. Open " + ScenePath + "; existing work was not overwritten.");
             return;
         }
-        // Additive creation preserves the currently open scene, including unsaved work.
+        if (string.IsNullOrEmpty(UnityEngine.SceneManagement.SceneManager.GetActiveScene().path))
+        {
+            if (!Application.isBatchMode)
+            {
+                Debug.LogError("Save the untitled scene before creating the demo. No scene was changed.");
+                return;
+            }
+            // Batch mode starts in a disposable untitled scene. Load a saved scene
+            // before additive creation; never rewrite it.
+            EditorSceneManager.OpenScene("Assets/Scenes/SampleScene.unity");
+        }
+        // Additive creation preserves the currently open saved scene.
         var scene = EditorSceneManager.NewScene(NewSceneSetup.EmptyScene, NewSceneMode.Additive);
         UnityEngine.SceneManagement.SceneManager.SetActiveScene(scene);
         var camera = new GameObject("Demo camera").AddComponent<Camera>();

@@ -1,0 +1,16 @@
+{
+  "name": "XRMidi.XR.Tests",
+  "references": [
+    "XRMidi.XR",
+    "XRMidi.Core",
+    "Unity.ugui",
+    "XRMidi.Runtime",
+    "XRMidi.Network"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ]
+}

@@ -229,4 +229,21 @@ public sealed class RhythmCoreTests
         e.Submit(new NoteEvent(70, true, 100, 1.15));
         Assert.That(e.Summary.AverageAbsoluteErrorMs, Is.EqualTo(70).Within(0.00001));
     }
+    [Test]
+    public void WorkerInputIsDeliveredOnlyWhenMainThreadDrainsInTimeOrder()
+    {
+        var source = new InputSource();
+        using (var dispatcher = new MainThreadMidiInput(source))
+        {
+            var received = new List<NoteEvent>(); int callbackThread = -1;
+            dispatcher.NoteReceived += n => { received.Add(n); callbackThread = System.Threading.Thread.CurrentThread.ManagedThreadId; };
+            dispatcher.SetAccepting(true);
+            var worker = new System.Threading.Thread(() => { source.Send(62, 1); source.Send(60, 0); });
+            worker.Start(); worker.Join(); Assert.That(received.Count, Is.Zero);
+            dispatcher.Drain(); Assert.That(received.ConvertAll(n => n.Pitch), Is.EqualTo(new[] {60, 62}));
+            Assert.That(callbackThread, Is.EqualTo(System.Threading.Thread.CurrentThread.ManagedThreadId));
+            source.Send(60, 2); dispatcher.SetAccepting(false); source.Send(60, 3);
+            dispatcher.SetAccepting(true); dispatcher.Drain(); Assert.That(received.Count, Is.EqualTo(2));
+        }
+    }
 }

@@ -8,6 +8,8 @@
 # Build outputs
 /[Bb]uild/
 /[Bb]uilds/
+*.apk
+*.aab
 
 # Generated IDE files
 .vs/

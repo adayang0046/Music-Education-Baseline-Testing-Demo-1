@@ -1,0 +1,6 @@
+{
+  "name": "XRMidi.Network",
+  "references": ["XRMidi.Core"],
+  "noEngineReferences": true,
+  "autoReferenced": true
+}

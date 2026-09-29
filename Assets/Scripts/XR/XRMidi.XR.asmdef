@@ -1,0 +1,12 @@
+{
+  "name": "XRMidi.XR",
+  "references": [
+    "XRMidi.Core",
+    "Unity.XR.Hands",
+    "Unity.XR.CoreUtils",
+    "Unity.ugui",
+    "XRMidi.Runtime",
+    "XRMidi.Network"
+  ],
+  "autoReferenced": true
+}

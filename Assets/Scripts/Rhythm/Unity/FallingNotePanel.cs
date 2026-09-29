@@ -22,12 +22,14 @@ namespace XRMidi
         private Image progress;
         private Font font;
         private double flashUntil;
+        private bool desktopControls;
         private readonly Color green = new Color32(125, 161, 114, 255);
         private readonly Color yellow = new Color32(219, 185, 59, 255);
         public double ApproachSeconds => approachSeconds;
 
-        public void Initialize(RhythmDemoController controller)
+        public void Initialize(RhythmDemoController controller, bool useDesktopControls = true)
         {
+            desktopControls = useDesktopControls;
             if (approachSeconds <= 0 || !Numbers.Finite(approachSeconds) || laneSpacing <= 0 || fallDistance <= 0 || noteDimensions.x <= 0 || noteDimensions.y <= 0)
                 throw new ArgumentException("Panel dimensions and approach time must be positive.");
             root = (RectTransform)transform;
@@ -40,7 +42,8 @@ namespace XRMidi
                 float x = (i - 2) * laneSpacing;
                 Box("Lane", root, new Vector2(x, hitLineY + fallDistance / 2), new Vector2(laneSpacing - 5, fallDistance + 55), new Color32(44, 44, 44, 255));
                 int pitch = pitches[i];
-                Button(labels[i], new Vector2(x, hitLineY - 43), new Vector2(laneSpacing - 8, 45), () => controller.PlayNote(pitch));
+                var keyLabel = Button(desktopControls ? labels[i] : $"MIDI {pitch}", new Vector2(x, hitLineY - 43), new Vector2(laneSpacing - 8, 45), () => controller.PlayNote(pitch));
+                keyLabel.GetComponentInParent<Button>().interactable = controller.AllowSimulatedNotes;
             }
             Box("Hit line", root, new Vector2(0, hitLineY), new Vector2(laneSpacing * 5, 4), green);
             noteRoot = new GameObject("Scheduled notes", typeof(RectTransform)).GetComponent<RectTransform>();
@@ -89,7 +92,7 @@ namespace XRMidi
         public void SetStatus(SessionState state, double elapsed, double end, string message, bool rightTracked)
         {
             string time = elapsed < 0 ? $"Ready in {-elapsed:0.0}s" : $"Beat {elapsed * lesson.tempo / 60:0.00}";
-            status.text = $"{state}  |  {lesson.tempo:0} BPM  |  {time}  |  Space: start/pause, R: restart";
+            status.text = $"{state}  |  {lesson.tempo:0} BPM  |  {time}" + (desktopControls ? "  |  Space: start/pause, R: restart" : "");
             feedback.text = message;
             if (Time.realtimeSinceStartupAsDouble > flashUntil) feedback.color = Color.white;
             float fraction = state == SessionState.Complete ? 1 : end > 0 ? Mathf.Clamp01((float)(elapsed / end)) : 0;
@@ -97,6 +100,7 @@ namespace XRMidi
             pauseLabel.text = state == SessionState.Paused ? "Resume" : "Pause";
             gesture.text = $"SIMULATED right hand: {(rightTracked ? "available" : "lost")} | P: hold pinch to start | T: toggle tracking";
         }
+        public void SetInputDescription(string message) { gesture.text = message; }
         private Image Box(string name, RectTransform parent, Vector2 position, Vector2 size, Color color)
         {
             var image = new GameObject(name, typeof(RectTransform), typeof(CanvasRenderer), typeof(Image)).GetComponent<Image>();

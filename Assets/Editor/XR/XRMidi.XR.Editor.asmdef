@@ -1,0 +1,20 @@
+{
+  "name": "XRMidi.XR.Editor",
+  "references": [
+    "XRMidi.XR",
+    "XRMidi.Core",
+    "Unity.XR.Hands",
+    "Unity.XR.CoreUtils",
+    "UnityEngine.SpatialTracking",
+    "Unity.ugui",
+    "Unity.XR.Management",
+    "Unity.XR.Management.Editor",
+    "Unity.XR.OpenXR",
+    "Unity.XR.OpenXR.Editor",
+    "Unity.XR.OpenXR.Features.MetaQuestSupport",
+    "XRMidi.Runtime"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ]
+}

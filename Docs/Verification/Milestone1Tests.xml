@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="37" result="Passed" total="37" passed="37" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-09-21 17:46:19Z" end-time="2026-09-21 17:46:28Z" duration="8.3027357">
+  <test-suite type="TestSuite" id="1000" name="3d" fullname="3d" runstate="Runnable" testcasecount="37" result="Passed" start-time="2026-09-21 17:46:19Z" end-time="2026-09-21 17:46:28Z" duration="8.302736" total="37" passed="37" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties />
+    <test-suite type="Assembly" id="1049" name="XRMidi.EditModeTests.dll" fullname="/private/var/folders/bj/n_dt2h414v3gynjy1xk2jxww0000gn/T/xr-midi-m1-w893c1lk/Library/ScriptAssemblies/XRMidi.EditModeTests.dll" runstate="Runnable" testcasecount="37" result="Passed" start-time="2026-09-21 17:46:20Z" end-time="2026-09-21 17:46:28Z" duration="7.687790" total="37" passed="37" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="64981" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+      </properties>
+      <test-suite type="TestFixture" id="1005" name="DemoSceneTests" fullname="DemoSceneTests" classname="DemoSceneTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-21 17:46:20Z" end-time="2026-09-21 17:46:28Z" duration="7.561020" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1006" name="DemoStartsPausesCompletesAndRestartsInPlayMode" fullname="DemoSceneTests.DemoStartsPausesCompletesAndRestartsInPlayMode" methodname="DemoStartsPausesCompletesAndRestartsInPlayMode" classname="DemoSceneTests" runstate="Runnable" seed="876566449" result="Passed" start-time="2026-09-21 17:46:18Z" end-time="2026-09-21 17:46:28Z" duration="9.824538" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+          </properties>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" id="1007" name="RhythmCoreTests" fullname="RhythmCoreTests" classname="RhythmCoreTests" runstate="Runnable" testcasecount="36" result="Passed" start-time="2026-09-21 17:46:28Z" end-time="2026-09-21 17:46:28Z" duration="0.121273" total="36" passed="36" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1008" name="ActualJsonLoadsFiveQuarterNotes" fullname="RhythmCoreTests.ActualJsonLoadsFiveQuarterNotes" methodname="ActualJsonLoadsFiveQuarterNotes" classname="RhythmCoreTests" runstate="Runnable" seed="1526466325" result="Passed" start-time="2026-09-21 17:46:28Z" end-time="2026-09-21 17:46:28Z" duration="0.007246" asserts="0">
+          <properties />
+        </test-case>
+        <test-case id="1047" name="AverageTimingErrorUsesOnlyAcceptedOnsets" fullname="RhythmCoreTests.AverageTimingErrorUsesOnlyAcceptedOnsets" methodname="AverageTimingErrorUsesOnlyAcceptedOnsets" classname="RhythmCoreTests" runstate="Runnable" seed="217461703" result="Passed" start-time="2026-09-21 17:46:28Z" end-time="2026-09-21 17:46:28Z" duration="0.002833" asserts="0">
+          <properties />
+        </test-case>
+        <test-case id="1035" name="ChordRequiresOneInputPerTargetAndRepeatCannotRescore" fullname="RhythmCoreTests.ChordRequiresOneInputPerTargetAndRepeatCannotRescore" methodname="ChordRequiresOneInputPerTargetAndRepeatCannotRescore" classname="RhythmCoreTests" runstate="Runnable" seed="108197710" result="Passed" start-time="2026-09-21 17:46:28Z" end-time="2026-09-21 17:46:28Z" duration="0.001129" asserts="0">
+          <properties />
+        </test-case>
+        <test-case id="1015" name="ClockConvertsQuarterNoteBeatsAndIncludesLeadIn" fullname="RhythmCoreTests.ClockConvertsQuarterNoteBeatsAndIncludesLeadIn" methodname="ClockConvertsQuarterNoteBeatsAndIncludesLeadIn" classname="RhythmCoreTests" runstate="Runnable" seed="219281375" result="Passed" start-time="2026-09-21 17:46:28Z" end-time="2026-09-21 17:46:28Z" duration="0.002105" asserts="0">
+          <properties />
+        </test-case>
+        <test-case id="1045" name="DisposeUnsubscribesInput" fullname="RhythmCoreTests.DisposeUnsubscribesInput" methodname="DisposeUnsubscribesInput" classname="RhythmCoreTests" runstate="Runnable" seed="189712518" result="Passed" start-time="2026-09-21 17:46:28Z" end-time="2026-09-21 17:46:28Z" duration="0.001369" asserts="0">
+          <properties />
+        </test-case>
+        <test-case id="1041" name="EvaluatorSnapshotsLessonAndWindows" fullname="RhythmCoreTests.EvaluatorSnapshotsLessonAndWindows" methodname="EvaluatorSnapshotsLessonAndWindows" classname="RhythmCoreTests" runstate="Runnable" seed="269920841" result="Passed" start-time="2026-09-21 17:46:28Z" end-time="2026-09-21 17:46:28Z" duration="0.000640" asserts="0">
+          <properties />
+        </test-case>
+        <test-suite type="ParameterizedMethod" id="1021" name="FallingNotePositionUsesAbsoluteTime" fullname="RhythmCoreTests.FallingNotePositionUsesAbsoluteTime" classname="RhythmCoreTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-09-21 17:46:28Z" end-time="2026-09-21 17:46:28Z" duration="0.002315" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-case id="1017" name="FallingNotePositionUsesAbsoluteTime(-2,240)" fullname="RhythmCoreTests.FallingNotePositionUsesAbsoluteTime(-2,240)" methodname="FallingNotePositionUsesAbsoluteTime" classname="RhythmCoreTests" runstate="Runnable" seed="402893312" result="Passed" start-time="2026-09-21 17:46:28Z" end-time="2026-09-21 17:46:28Z" duration="0.000416" asserts="0">
+            <properties />
+          </test-case>
+          <test-case id="1018" name="FallingNotePositionUsesAbsoluteTime(-1,120)" fullname="RhythmCoreTests.FallingNotePositionUsesAbsoluteTime(-1,120)" methodname="FallingNotePositionUsesAbsoluteTime" classname="RhythmCoreTests" runstate="Runnable" seed="1268632756" result="Passed" start-time="2026-09-21 17:46:28Z" end-time="2026-09-21 17:46:28Z" duration="0.000086" asserts="0">
+            <properties />
+          </test-case>
+          <test-case id="1019" name="FallingNotePositionUsesAbsoluteTime(0,0)" fullname="RhythmCoreTests.FallingNotePositionUsesAbsoluteTime(0,0)" methodname="FallingNotePositionUsesAbsoluteTime" classname="RhythmCoreTests" runstate="Runnable" seed="1083381829" result="Passed" start-time="2026-09-21 17:46:28Z" end-time="2026-09-21 17:46:28Z" duration="0.000068" asserts="0">
+            <properties />
+          </test-case>
+          <test-case id="1020" name="FallingNotePositionUsesAbsoluteTime(0.1d,-12)" fullname="RhythmCoreTests.FallingNotePositionUsesAbsoluteTime(0.1d,-12)" methodname="FallingNotePositionUsesAbsoluteTime" classname="RhythmCoreTests" runstate="Runnable" seed="667788603" result="Passed" start-time="2026-09-21 17:46:28Z" end-time="2026-09-21 17:46:28Z" duration="0.000076" asserts="0">
+            <properties />
+          </test-case>
+        </test-suite>
+        <test-case id="1046" name="GestureEdgesAreUniqueAndTrackingLossCancelsPinch" fullname="RhythmCoreTests.GestureEdgesAreUniqueAndTrackingLossCancelsPinch" methodname="GestureEdgesAreUniqueAndTrackingLossCancelsPinch" classname="RhythmCoreTests" runstate="Runnable" seed="2099521261" result="Passed" start-time="2026-09-21 17:46:28Z" end-time="2026-09-21 17:46:28Z" duration="0.001731" asserts="0">
+          <properties />
+        </test-case>
+        <test-suite type="ParameterizedMethod" id="1029" name="InclusiveScoringWindows" fullname="RhythmCoreTests.InclusiveScoringWindows" classname="RhythmCoreTests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-09-21 17:46:28Z" end-time="2026-09-21 17:46:28Z" duration="0.005353" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-case id="1022" name="InclusiveScoringWindows(0,Perfect)" fullname="RhythmCoreTests.InclusiveScoringWindows(0,Perfect)" methodname="InclusiveScoringWindows" classname="RhythmCoreTests" runstate="Runnable" seed="997460495" result="Passed" start-time="2026-09-21 17:46:28Z" end-time="2026-09-21 17:46:28Z" duration="0.002040" asserts="0">
+            <properties />
+          </test-case>
+          <test-case id="1023" name="InclusiveScoringWindows(-0.05d,Perfect)" fullname="RhythmCoreTests.InclusiveScoringWindows(-0.05d,Perfect)" methodname="InclusiveScoringWindows" classname="RhythmCoreTests" runstate="Runnable" seed="772949968" result="Passed" start-time="2026-09-21 17:46:28Z" end-time="2026-09-21 17:46:28Z" duration="0.000311" asserts="0">
+            <properties />
+          </test-case>
+          <test-case id="1024" name="InclusiveScoringWindows(0.05d,Perfect)" fullname="RhythmCoreTests.InclusiveScoringWindows(0.05d,Perfect)" methodname="InclusiveScoringWindows" classname="RhythmCoreTests" runstate="Runnable" seed="492049213" result="Passed" start-time="2026-09-21 17:46:28Z" end-time="2026-09-21 17:46:28Z" duration="0.000130" asserts="0">
+            <properties />
+          </test-case>
+          <test-case id="1025" name="InclusiveScoringWindows(-0.12d,Good)" fullname="RhythmCoreTests.InclusiveScoringWindows(-0.12d,Good)" methodname="InclusiveScoringWindows" classname="RhythmCoreTests" runstate="Runnable" seed="1883043020" result="Passed" start-time="2026-09-21 17:46:28Z" end-time="2026-09-21 17:46:28Z" duration="0.000091" asserts="0">
+            <properties />
+          </test-case>
+          <test-case id="1026" name="InclusiveScoringWindows(0.12d,Good)" fullname="RhythmCoreTests.InclusiveScoringWindows(0.12d,Good)" methodname="InclusiveScoringWindows" classname="RhythmCoreTests" runstate="Runnable" seed="2144021436" result="Passed" start-time="2026-09-21 17:46:28Z" end-time="2026-09-21 17:46:28Z" duration="0.000145" asserts="0">
+            <properties />
+          </test-case>
+          <test-case id="1027" name="InclusiveScoringWindows(-0.2d,Early)" fullname="RhythmCoreTests.InclusiveScoringWindows(-0.2d,Early)" methodname="InclusiveScoringWindows" classname="RhythmCoreTests" runstate="Runnable" seed="1282989455" result="Passed" start-time="2026-09-21 17:46:28Z" end-time="2026-09-21 17:46:28Z" duration="0.000127" asserts="0">
+            <properties />
+          </test-case>
+          <test-case id="1028" name="InclusiveScoringWindows(0.2d,Late)" fullname="RhythmCoreTests.InclusiveScoringWindows(0.2d,Late)" methodname="InclusiveScoringWindows" classname="RhythmCoreTests" runstate="Runnable" seed="1360812041" result="Passed" start-time="2026-09-21 17:46:28Z" end-time="2026-09-21 17:46:28Z" duration="0.000101" asserts="0">
+            <properties />
+          </test-case>
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="1013" name="InvalidJsonFails" fullname="RhythmCoreTests.InvalidJsonFails" classname="RhythmCoreTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-09-21 17:46:28Z" end-time="2026-09-21 17:46:28Z" duration="0.007517" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-case id="1009" name="InvalidJsonFails(&quot;&quot;)" fullname="RhythmCoreTests.InvalidJsonFails(&quot;&quot;)" methodname="InvalidJsonFails" classname="RhythmCoreTests" runstate="Runnable" seed="1680507874" result="Passed" start-time="2026-09-21 17:46:28Z" end-time="2026-09-21 17:46:28Z" duration="0.004941" asserts="0">
+            <properties />
+          </test-case>
+          <test-case id="1010" name="InvalidJsonFails(&quot;{&quot;)" fullname="RhythmCoreTests.InvalidJsonFails(&quot;{&quot;)" methodname="InvalidJsonFails" classname="RhythmCoreTests" runstate="Runnable" seed="1740406205" result="Passed" start-time="2026-09-21 17:46:28Z" end-time="2026-09-21 17:46:28Z" duration="0.000235" asserts="0">
+            <properties />
+          </test-case>
+          <test-case id="1011" name="InvalidJsonFails(&quot;{}&quot;)" fullname="RhythmCoreTests.InvalidJsonFails(&quot;{}&quot;)" methodname="InvalidJsonFails" classname="RhythmCoreTests" runstate="Runnable" seed="1842026167" result="Passed" start-time="2026-09-21 17:46:28Z" end-time="2026-09-21 17:46:28Z" duration="0.000108" asserts="0">
+            <properties />
+          </test-case>
+          <test-case id="1012" name="InvalidJsonFails(&quot;null&quot;)" fullname="RhythmCoreTests.InvalidJsonFails(&quot;null&quot;)" methodname="InvalidJsonFails" classname="RhythmCoreTests" runstate="Runnable" seed="20704886" result="Passed" start-time="2026-09-21 17:46:28Z" end-time="2026-09-21 17:46:28Z" duration="0.000081" asserts="0">
+            <properties />
+          </test-case>
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="1040" name="InvalidMidiIsRejected" fullname="RhythmCoreTests.InvalidMidiIsRejected" classname="RhythmCoreTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-09-21 17:46:28Z" end-time="2026-09-21 17:46:28Z" duration="0.007040" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-case id="1038" name="InvalidMidiIsRejected(-1)" fullname="RhythmCoreTests.InvalidMidiIsRejected(-1)" methodname="InvalidMidiIsRejected" classname="RhythmCoreTests" runstate="Runnable" seed="885097248" result="Passed" start-time="2026-09-21 17:46:28Z" end-time="2026-09-21 17:46:28Z" duration="0.000747" asserts="0">
+            <properties />
+          </test-case>
+          <test-case id="1039" name="InvalidMidiIsRejected(128)" fullname="RhythmCoreTests.InvalidMidiIsRejected(128)" methodname="InvalidMidiIsRejected" classname="RhythmCoreTests" runstate="Runnable" seed="934268713" result="Passed" start-time="2026-09-21 17:46:28Z" end-time="2026-09-21 17:46:28Z" duration="0.000249" asserts="0">
+            <properties />
+          </test-case>
+        </test-suite>
+        <test-case id="1034" name="MissingNotesExpireOnlyAfterInclusiveWindow" fullname="RhythmCoreTests.MissingNotesExpireOnlyAfterInclusiveWindow" methodname="MissingNotesExpireOnlyAfterInclusiveWindow" classname="RhythmCoreTests" runstate="Runnable" seed="1568568488" result="Passed" start-time="2026-09-21 17:46:28Z" end-time="2026-09-21 17:46:28Z" duration="0.000987" asserts="0">
+          <properties />
+        </test-case>
+        <test-case id="1037" name="NoteOffAndVelocityZeroAreRecordedWithoutScoring" fullname="RhythmCoreTests.NoteOffAndVelocityZeroAreRecordedWithoutScoring" methodname="NoteOffAndVelocityZeroAreRecordedWithoutScoring" classname="RhythmCoreTests" runstate="Runnable" seed="616121939" result="Passed" start-time="2026-09-21 17:46:28Z" end-time="2026-09-21 17:46:28Z" duration="0.000815" asserts="0">
+          <properties />
+        </test-case>
+        <test-suite type="ParameterizedMethod" id="1033" name="OutsideWindowInputIsExtraAndTargetMisses" fullname="RhythmCoreTests.OutsideWindowInputIsExtraAndTargetMisses" classname="RhythmCoreTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-09-21 17:46:28Z" end-time="2026-09-21 17:46:28Z" duration="0.009215" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-case id="1031" name="OutsideWindowInputIsExtraAndTargetMisses(-0.201d)" fullname="RhythmCoreTests.OutsideWindowInputIsExtraAndTargetMisses(-0.201d)" methodname="OutsideWindowInputIsExtraAndTargetMisses" classname="RhythmCoreTests" runstate="Runnable" seed="344144864" result="Passed" start-time="2026-09-21 17:46:28Z" end-time="2026-09-21 17:46:28Z" duration="0.000911" asserts="0">
+            <properties />
+          </test-case>
+          <test-case id="1032" name="OutsideWindowInputIsExtraAndTargetMisses(0.201d)" fullname="RhythmCoreTests.OutsideWindowInputIsExtraAndTargetMisses(0.201d)" methodname="OutsideWindowInputIsExtraAndTargetMisses" classname="RhythmCoreTests" runstate="Runnable" seed="469360424" result="Passed" start-time="2026-09-21 17:46:28Z" end-time="2026-09-21 17:46:28Z" duration="0.000427" asserts="0">
+            <properties />
+          </test-case>
+        </test-suite>
+        <test-case id="1043" name="PauseIgnoresInputAndResumeKeepsTiming" fullname="RhythmCoreTests.PauseIgnoresInputAndResumeKeepsTiming" methodname="PauseIgnoresInputAndResumeKeepsTiming" classname="RhythmCoreTests" runstate="Runnable" seed="1042277931" result="Passed" start-time="2026-09-21 17:46:28Z" end-time="2026-09-21 17:46:28Z" duration="0.001677" asserts="0">
+          <properties />
+        </test-case>
+        <test-case id="1016" name="PauseResumeAndRestartIgnorePausedWallTime" fullname="RhythmCoreTests.PauseResumeAndRestartIgnorePausedWallTime" methodname="PauseResumeAndRestartIgnorePausedWallTime" classname="RhythmCoreTests" runstate="Runnable" seed="1637304282" result="Passed" start-time="2026-09-21 17:46:28Z" end-time="2026-09-21 17:46:28Z" duration="0.000578" asserts="0">
+          <properties />
+        </test-case>
+        <test-case id="1036" name="SamePitchTargetsConsumeOnlyOnePerInput" fullname="RhythmCoreTests.SamePitchTargetsConsumeOnlyOnePerInput" methodname="SamePitchTargetsConsumeOnlyOnePerInput" classname="RhythmCoreTests" runstate="Runnable" seed="321685631" result="Passed" start-time="2026-09-21 17:46:28Z" end-time="2026-09-21 17:46:28Z" duration="0.000945" asserts="0">
+          <properties />
+        </test-case>
+        <test-case id="1042" name="SessionCompletesOnceAndRestartResetsEverything" fullname="RhythmCoreTests.SessionCompletesOnceAndRestartResetsEverything" methodname="SessionCompletesOnceAndRestartResetsEverything" classname="RhythmCoreTests" runstate="Runnable" seed="1236647779" result="Passed" start-time="2026-09-21 17:46:28Z" end-time="2026-09-21 17:46:28Z" duration="0.002336" asserts="0">
+          <properties />
+        </test-case>
+        <test-case id="1044" name="SilentLessonCompletesWithAllMisses" fullname="RhythmCoreTests.SilentLessonCompletesWithAllMisses" methodname="SilentLessonCompletesWithAllMisses" classname="RhythmCoreTests" runstate="Runnable" seed="1257600277" result="Passed" start-time="2026-09-21 17:46:28Z" end-time="2026-09-21 17:46:28Z" duration="0.000740" asserts="0">
+          <properties />
+        </test-case>
+        <test-case id="1014" name="ValidationRejectsNullNotesInvalidPitchAndNonfiniteTimes" fullname="RhythmCoreTests.ValidationRejectsNullNotesInvalidPitchAndNonfiniteTimes" methodname="ValidationRejectsNullNotesInvalidPitchAndNonfiniteTimes" classname="RhythmCoreTests" runstate="Runnable" seed="563451042" result="Passed" start-time="2026-09-21 17:46:28Z" end-time="2026-09-21 17:46:28Z" duration="0.002159" asserts="0">
+          <properties />
+        </test-case>
+        <test-case id="1048" name="WorkerInputIsDeliveredOnlyWhenMainThreadDrainsInTimeOrder" fullname="RhythmCoreTests.WorkerInputIsDeliveredOnlyWhenMainThreadDrainsInTimeOrder" methodname="WorkerInputIsDeliveredOnlyWhenMainThreadDrainsInTimeOrder" classname="RhythmCoreTests" runstate="Runnable" seed="2020616361" result="Passed" start-time="2026-09-21 17:46:28Z" end-time="2026-09-21 17:46:28Z" duration="0.050365" asserts="0">
+          <properties />
+        </test-case>
+        <test-case id="1030" name="WrongPitchDoesNotConsumeTarget" fullname="RhythmCoreTests.WrongPitchDoesNotConsumeTarget" methodname="WrongPitchDoesNotConsumeTarget" classname="RhythmCoreTests" runstate="Runnable" seed="1551606193" result="Passed" start-time="2026-09-21 17:46:28Z" end-time="2026-09-21 17:46:28Z" duration="0.000847" asserts="0">
+          <properties />
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-09-28 09:34:25Z" end-time="2026-09-28 09:34:33Z" duration="8.5071782">
+  <test-suite type="TestSuite" id="1000" name="XR MIDI Quest Lesson" fullname="XR MIDI Quest Lesson" runstate="Runnable" testcasecount="68" result="Passed" start-time="2026-09-28 09:34:25Z" end-time="2026-09-28 09:34:33Z" duration="8.507178" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties />
+    <test-suite type="Assembly" id="1089" name="XRMidi.XR.Tests.dll" fullname="/private/var/folders/bj/n_dt2h414v3gynjy1xk2jxww0000gn/T/mac-midi-test-rbp8jdc1/Library/ScriptAssemblies/XRMidi.XR.Tests.dll" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-09-28 09:34:25Z" end-time="2026-09-28 09:34:33Z" duration="7.717412" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="26837" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+      </properties>
+      <test-suite type="TestFixture" id="1087" name="QuestLessonSceneTests" fullname="QuestLessonSceneTests" classname="QuestLessonSceneTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-28 09:34:25Z" end-time="2026-09-28 09:34:33Z" duration="7.715274" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1088" name="QuestCompositionCompletesWithSimulatedNotesAndKeepsFallbackControls" fullname="QuestLessonSceneTests.QuestCompositionCompletesWithSimulatedNotesAndKeepsFallbackControls" methodname="QuestCompositionCompletesWithSimulatedNotesAndKeepsFallbackControls" classname="QuestLessonSceneTests" runstate="Runnable" seed="1384349916" result="Passed" start-time="2026-09-28 09:34:23Z" end-time="2026-09-28 09:34:33Z" duration="10.530051" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+          </properties>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
