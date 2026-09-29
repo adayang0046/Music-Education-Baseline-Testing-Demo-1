@@ -7,7 +7,7 @@
 
 # Build outputs
 /[Bb]uild/
-/[Bb]uilds/
+/[Bb]uilds/*
 *.apk
 *.aab
 
@@ -29,3 +29,9 @@
 /AGENTS.md
 /OUTLINES.md
 /README.md
+/Docs/
+
+# Shared test APKs
+!/Builds/QuestGestureTest.apk
+!/Builds/QuestLessonDemo.apk
+!/Builds/QuestMidiRelayDemo.apk
